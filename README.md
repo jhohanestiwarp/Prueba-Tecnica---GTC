@@ -45,18 +45,17 @@ src/
 
 ⚙️ Cómo levantar el proyecto
 
-1️⃣ Clonar el repositorio
+1️⃣Clonar el repositorio
 
-git clone https://github.com/tuusuario/proyecto-estudiantes.git
 cd proyecto-estudiantes
 
 
-2️⃣ Instalar dependencias
+2️⃣Instalar dependencias
 
 npm install
 
 
-3️⃣ Verificar versiones
+3️⃣Verificar versiones
 Este proyecto corre con:
 
 Node.js >= 20
@@ -67,7 +66,7 @@ node -v
 ng version
 
 
-4️⃣ Levantar el servidor en local
+4️⃣Levantar el servidor en local
 
 ng serve -o
 

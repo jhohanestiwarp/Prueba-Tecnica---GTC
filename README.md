@@ -1,9 +1,10 @@
-
-![WhatsApp Image 2025-09-30 at 4 43 06 PM](https://github.com/user-attachments/assets/89006128-d87a-476c-8996-1168a87484ad)
 📚 Proyecto Interfaz Estudiantil
 
 Este es un pequeño proyecto hecho con Angular para gestionar estudiantes mediante un CRUD (Crear, Listar, Editar y Eliminar).
 El frontend está conectado a un backend en Spring Boot que expone la API de estudiantes.
+
+![WhatsApp Image 2025-09-30 at 4 43 06 PM](https://github.com/user-attachments/assets/89006128-d87a-476c-8996-1168a87484ad)
+
 
 La idea principal es tener una interfaz sencilla para registrar estudiantes, listarlos en una tabla y poder modificarlos o eliminarlos cuando sea necesario.
 

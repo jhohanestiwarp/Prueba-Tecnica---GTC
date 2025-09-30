@@ -1,0 +1,12 @@
+/* .container-fluid{
+    width: 20px;
+    height: 40px;
+} */
+.container{
+    height: 50%;
+    width: 55% ;
+    margin-block: 5px;
+}
+/* h2{
+    text-align: center;
+} */

@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url("/assets/3.png ");
+    background-color:lemonchiffon;
+    font-family: Arial, sans-serif;
+    /* background-position: ; */
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    padding-top: 2%
+    
+}
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* g src="assets\pictures\bg4.jpg" class="img-fluid" style="position: absolute; right: 0; top: 0; z-index: -100; opacity: 0.75;"> */

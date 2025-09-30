@@ -2,7 +2,7 @@
 
 Este es un pequeño proyecto hecho con Angular para gestionar estudiantes mediante un CRUD (Crear, Listar, Editar y Eliminar).
 El frontend está conectado a un backend en Spring Boot que expone la API de estudiantes.
-
+![WhatsApp Image 2025-09-30 at 5 31 22 PM](https://github.com/user-attachments/assets/39c86654-5dd0-4407-bc1b-e46cec39f1c4)
 ![WhatsApp Image 2025-09-30 at 4 43 06 PM](https://github.com/user-attachments/assets/89006128-d87a-476c-8996-1168a87484ad)
 
 

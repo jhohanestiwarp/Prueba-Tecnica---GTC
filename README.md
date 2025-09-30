@@ -72,11 +72,11 @@ Ejemplo de estudiante en JSON:
 {
   "id": 1,
   "firstName": "Carlos",
-  "lastName": "Hernández",
+  "lastName": "cordoba",
   "documentType": "CC",
   "document": "123456789",
   "age": 25,
-  "email": "carlos@example.com",
+  "email": "carlos@gmail.com",
   "state": "Activo",
   "createdAt": "2025-09-30T14:00:00",
   "updatedAt": "2025-09-30T14:00:00"

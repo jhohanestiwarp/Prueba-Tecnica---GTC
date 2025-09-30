@@ -27,23 +27,20 @@ export class EditStudentComponent implements OnInit {
       document: [''],
       age: [''],
       email: [''],
-      state: [''],
-      createdAt: [''],
-      updatedAt: ['']
+      state: ['']
     });
 
     if (this.elID) {
       this.studentService.getStudent(this.elID).subscribe(result => {
+        const res = result.data
         this.formStudent.setValue({
-          firstName: result.firstName,
-          lastName: result.lastName,
-          documentType: result.documentType,
-          document: result.document,
-          age: result.age,
-          email: result.email,
-          state: result.state,
-          createdAt: result.createdAt,
-          updatedAt: result.updatedAt
+          firstName: res.firstName,
+          lastName: res.lastName,
+          documentType: res.documentType,
+          document: res.document,
+          age: res.age,
+          email: res.email,
+          state: res.state
         });
       });
     }

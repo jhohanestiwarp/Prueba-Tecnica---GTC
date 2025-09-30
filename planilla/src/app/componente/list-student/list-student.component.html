@@ -10,34 +10,28 @@
         <thead class="table-dark">
           <tr>
             <th>Código</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Tipo Documento</th>
+            <th>Nombre completo</th>
             <th>Documento</th>
             <th>Edad</th>
             <th>Email</th>
             <th>Estado</th>
             <th>Creado</th>
-            <th>Actualizado</th>
             <th>Acciones</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let student of students; let iControl = index">
             <td>{{ student.id }}</td>
-            <td>{{ student.firstName }}</td>
-            <td>{{ student.lastName }}</td>
-            <td>{{ student.documentType }}</td>
+            <td>{{ student.fullName }}</td>
             <td>{{ student.document }}</td>
             <td>{{ student.age }}</td>
             <td>{{ student.email }}</td>
             <td>
-              <span class="badge" [ngClass]="student.state === 'Activo' ? 'bg-success' : 'bg-danger'">
+              <span class="badge" [ngClass]="student.state == 'Active' ? 'bg-success' : 'bg-danger'">
                 {{ student.state }}
               </span>
             </td>
             <td>{{ student.createdAt | date: 'shortDate' }}</td>
-            <td>{{ student.updatedAt | date: 'shortDate' }}</td>
             <td>
               <a class="btn btn-warning btn-sm me-2" [routerLink]="['/edit-student', student.id]">
                 Editar

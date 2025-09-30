@@ -10,3 +10,13 @@ export class Student {
   createdAt!: Date;
   updatedAt!: Date;
 }
+
+export class StudentDto {
+  id!: number;
+  fullName!: string;
+  document!: string;
+  age!: number;
+  email!: string;
+  state!: string;
+  createdAt!: Date;
+}

@@ -22,10 +22,6 @@ HttpClientModule → consumo de la API
 
 ReactiveFormsModule → formularios reactivos
 
-@angular/cdk/drag-drop (solo para pruebas de arrastrar y soltar)
-
-Backend (ejemplo usado): Spring Boot con endpoints en http://localhost:8090/api/student
-
 📂 Estructura básica
 
 ![WhatsApp Image 2025-09-30 at 5 14 59 PM](https://github.com/user-attachments/assets/57f98b3c-a4e5-4bbe-b952-f46b34fedac4)
